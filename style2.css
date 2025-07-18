@@ -1,0 +1,242 @@
+@media(max-width:990px) {
+    .menu {
+        display: block;
+    }
+
+    .name1 {
+        display: block;
+    }
+
+    .name2 {
+        display: none;
+    }
+
+    .link,
+    .Link {
+        display: none
+    }
+}
+
+@media(max-width:733px) {
+    .navbar1 {
+        width: 100%;
+    }
+
+    .name1 {
+        display: none;
+    }
+
+    .name2 {
+        display: block;
+    }
+}
+
+@media(max-width:1284px) and (min-width:990px) {
+    .name1 {
+        display: none;
+    }
+
+    .name2 {
+        display: block;
+    }
+}
+
+@media(max-width:1197px) {
+    .creatorName {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .Passion {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:1007px) {
+    .creatorName {
+        font-size: 40px;
+    }
+
+    .Passion {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:900px) {
+    .creatorName {
+        font-size: 30px;
+    }
+
+    .Passion {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1365px) {
+    .aboutBodyRight {
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:910px) {
+
+    .aboutBodyRightBottomEnd,
+    .aboutBodyRightBottomStart,
+    .aboutBodyRightBottomMiddle {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:488px) {
+    .creatorPicture {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width:610px) {
+    .aboutBodyRightBottomEndMiddleAligner2 {
+        margin-right: 8%;
+    }
+
+    .aboutBodyRightBottomEndMiddleAligner3 {
+        margin-right: 4%;
+    }
+}
+
+@media(max-width:542px) {
+
+    .aboutBodyRightBottomEnd,
+    .aboutBodyRightBottomStart,
+    .aboutBodyRightBottomMiddle {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+@media(max-width:1296px) {
+    .htmlPercentageBox {
+        width: 500px;
+    }
+
+    .cssPercentageBox {
+        width: 500px;
+    }
+
+    .javascriptPercentageBox {
+        width: 500px;
+    }
+
+    .pythonPercentageBox {
+        width: 500px;
+    }
+
+    .cPercentageBox {
+        width: 500px;
+    }
+
+    .javaPercentageBox {
+        width: 500px;
+    }
+}
+
+@media(max-width:1070px) {
+
+    .python,
+    .html,
+    .css,
+    .c,
+    .java,
+    .javascript {
+        width: 95%;
+    }
+
+    .pythonPercentageBox,
+    .htmlPercentageBox,
+    .cssPercentageBox,
+    .cPercentageBox,
+    .javaPercentageBox,
+    .javascriptPercentageBox {
+        width: 100%;
+    }
+
+    .resumeBox {
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: repeat(4, auto);
+        grid-template-areas:
+            "box1 box1 box1 box1"
+            "box2 box2 box3 box3"
+            "box4 box4 box5 box5"
+            "box6 box6 box7 box7"
+            ;
+    }
+}
+@media(max-width:743px){
+    .resumeBox {
+        grid-template-rows: repeat(7, auto);
+        grid-template-columns: repeat(4, auto);
+        grid-template-areas:
+            "box1 box1 box1 box1"
+            "box2 box2 box2 box2"
+            "box3 box3 box3 box3"
+            "box4 box4 box4 box4"
+            "box5 box5 box5 box5"
+            "box6 box6 box6 box6"
+            "box7 box7 box7 box7"
+            ;
+    }
+}
+@media(max-width:1312px){
+    .certi{
+        width:300px;
+        height:300px;
+    }
+}
+@media(max-width:1008px){
+    .certi{
+        width:400px;
+        height:400px;
+    }
+    .certificationBox {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas:
+        "certiBox1 certiBox1 certiBox1 certiBox1"
+        "certiBox2 certiBox2 certiBox3 certiBox3"
+        "certiBox4 certiBox4 certiBox5 certiBox5"
+        "certiBox6 certiBox6 certiBox7 certiBox7"
+    ;
+}
+}
+@media(max-width:870px){
+    .certificationBox {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas:
+        "certiBox1 certiBox1 certiBox1 certiBox1"
+        "certiBox2 certiBox2 certiBox2 certiBox2"
+        "certiBox3 certiBox3 certiBox3 certiBox3"
+        "certiBox4 certiBox4 certiBox4 certiBox4"
+        "certiBox5 certiBox5 certiBox5 certiBox5"
+        "certiBox6 certiBox6 certiBox6 certiBox6"
+        "certiBox7 certiBox7 certiBox7 certiBox7"
+    ;
+    }
+    .CertificationImages{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:1000px){
+    .contentImage{
+        align-items: start;
+        justify-content: start;
+    }
+}
+@media(max-width:444px){
+    .certi{
+        width:300px;
+        height:300px;
+    }
+}

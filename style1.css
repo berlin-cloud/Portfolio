@@ -1,0 +1,537 @@
+body {
+    margin: 0px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    box-shadow: 5px 5px 10px gray;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.Link,
+.Link a,
+.li1,
+.li1 a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.name1,
+.name2 {
+    margin-right: auto;
+    color: white;
+    font-size: x-large;
+}
+
+.name2 {
+    display: none;
+}
+
+.profileImg {
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+}
+
+.link {
+    display: block;
+    margin-right: 5px;
+}
+
+.navbar1 {
+    position: fixed;
+    top: 0px;
+    right: -800px;
+    list-style-type: none;
+    height: 100vh;
+    width: 500px;
+    background-color: black;
+    transition: right 0.5s ease-out;
+    z-index: 2;
+}
+
+.middleAligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.li1 {
+    margin-bottom: 100px;
+    font-size: xx-large;
+}
+
+.link1 {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.innerbox {
+    display: flex;
+}
+
+.li1:hover a,
+.Link:hover a {
+    color: gray;
+}
+
+.menu {
+    display: none;
+    margin-right: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+.menu:hover,
+.close:hover {
+    background-color: gray;
+}
+
+#Home {
+    height: 100vh;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.dim {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    z-index: 0;
+}
+
+.AboutBox {
+    max-width: 1520px;
+    margin: 0px auto;
+}
+
+.creatorName {
+    background: linear-gradient(white, cyan);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+}
+
+.Passion {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+hr {
+    width: 50px;
+    margin: 0px;
+    border: 3px solid #149ddd;
+    margin-left: 2px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.aboutIntro {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.creatorPicture {
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.aboutBodyLeft {
+    padding: 30px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutBodyRight {
+    flex-basis: 900px;
+    flex-grow: 1;
+}
+
+.aboutBodyRightBottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.linkedin{
+    text-decoration: none;
+    color:black;
+}
+.aboutBodyRightBottomStart {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.aboutBodyRightBottomEnd {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.aboutBodyRightBottomMiddle {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 60px;
+}
+
+.skills {
+    background-color: rgb(244, 250, 253);
+}
+
+.skillsBox {
+    max-width: 1520px;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.htmlPercentageBox {
+    width: 600px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cssPercentageBox {
+    width: 600px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.javascriptPercentageBox {
+    width: 600px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pythonPercentageBox {
+    width: 600px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cPercentageBox {
+    width: 600px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.javaPercentageBox {
+    width: 600px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.skillsBody {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}
+
+.spacer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsBodyLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 530px;
+}
+
+.skillsBodyRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 530px;
+}
+
+.htmlPercentage {
+    height: 100%;
+    width: 70%;
+    background-color: #149ddd;
+}
+
+.cssPercentage {
+    height: 100%;
+    width: 60%;
+    background-color: #149ddd;
+}
+
+.javascriptPercentage {
+    height: 100%;
+    width: 60%;
+    background-color: #149ddd;
+}
+
+.pythonPercentage {
+    height: 100%;
+    width: 80%;
+    background-color: #149ddd;
+}
+
+.cPercentage {
+    height: 100%;
+    width: 50%;
+    background-color: #149ddd;
+}
+
+.javaPercentage {
+    height: 100%;
+    width: 55%;
+    background-color: #149ddd;
+}
+
+.resumeBox {
+    max-width: 1520px;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas:
+        "box1 box1 box1"
+        "box2 box3 box4"
+        "box5 box6 box7";
+}
+
+.title {
+    padding-left: 5%;
+}
+
+.content{
+    margin-bottom: 7%;
+    font-size: 20px;
+}
+#Certification{
+    background-color: rgb(244, 250, 253);
+}
+.certificationBox {
+    display: grid;
+    max-width: 1520px;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-top: 50px;
+    gap: 40px;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas:
+        "certiBox1 certiBox1 certiBox1"
+        "certiBox2 certiBox3 certiBox4"
+        "certiBox5 certiBox6 certiBox7"
+    ;
+    padding-bottom: 60px;
+}
+
+.certi {
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px gray;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.certi:hover {
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+.a{
+    width: 100vh;
+    height: 100vh;
+}
+.fullscreen {
+    display: none;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    gap:30%;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: display 0.5 ease-out;
+    overflow: scroll;
+}
+.fill{
+    width:1000px;
+    height:1000px;
+}
+.contentImage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+.contactBox{
+    max-width: 1520px;
+    margin: 0px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Ico{
+    background-color: rgb(244, 250, 253);
+    display:inline-flex;
+    width: 50px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px gray;
+}
+h5{
+    font-size: 25px;
+    padding: 0px;
+    margin:0px;
+}
+.contactBoxBottomLeft{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Det{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.Details{
+    margin: 0px;
+}
+.contactBoxBottomLeftDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap:50px;
+    padding:30px;
+}
+.contactBoxBottomLeft, .contactBoxBottomRight{
+    box-shadow: 2px 2px 10px 2px gray;
+    flex-grow: 1;
+}
+.contactBoxBottomRight{
+    flex-grow: 3;
+}
+.contactBoxTop{
+    padding-bottom: 40px;
+}
+.contactBoxBottom{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+label, input{
+    display:block;
+}
+label{
+    font-size: 20px;
+    padding-bottom:10px;
+}
+input, textarea{
+    width:100%;
+    padding: 10px;
+}
+.contactBoxBottomRightDetails{
+    padding:30px;
+    flex-grow:1;
+}
+.ContactField{
+    display:flex;
+    flex-wrap:wrap;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitBtn{
+    background-color: #149ddd;
+    color:rgb(244, 250, 253);
+    padding:20px;
+    border-radius: 30px;
+    border: 0px;
+}
+textarea{
+    resize: none;
+}
+footer{
+    padding:40px;
+    text-align: center;
+    background-color: rgb(244, 250, 253);
+}
