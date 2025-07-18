@@ -69,28 +69,28 @@ document.addEventListener("click", (e) => {
 });
 /*icon hover in contact section*/
 document.querySelector(".LocationAddress").addEventListener("mouseover", () =>{
-    document.querySelectorAll("svg")[0].style.fill = "rgb(244, 250, 253)";
+    document.querySelectorAll(".conIco")[0].style.fill = "rgb(244, 250, 253)";
     document.querySelector(".locationIcon").style.backgroundColor = "#149ddd";
 });
 document.querySelector(".LocationAddress").addEventListener("mouseout", () =>{
-    document.querySelectorAll("svg")[0].style.fill = "#149ddd";
+    document.querySelectorAll(".conIco")[0].style.fill = "#149ddd";
     document.querySelector(".locationIcon").style.backgroundColor = "rgb(244, 250, 253)";
 });
 
 document.querySelector(".callMe").addEventListener("mouseover", () =>{
-    document.querySelectorAll("svg")[1].style.fill = "rgb(244, 250, 253)";
+    document.querySelectorAll(".conIco")[1].style.fill = "rgb(244, 250, 253)";
     document.querySelector(".callMeIcon").style.backgroundColor = "#149ddd";
 });
 document.querySelector(".callMe").addEventListener("mouseout", () =>{
-    document.querySelectorAll("svg")[1].style.fill = "#149ddd";
+    document.querySelectorAll(".conIco")[1].style.fill = "#149ddd";
     document.querySelector(".callMeIcon").style.backgroundColor = "rgb(244, 250, 253)";
 });
 
 document.querySelector(".emailMe").addEventListener("mouseover", () =>{
-    document.querySelectorAll("svg")[2].style.fill = "rgb(244, 250, 253)";
+    document.querySelectorAll(".conIco")[2].style.fill = "rgb(244, 250, 253)";
     document.querySelector(".emailMeIcon").style.backgroundColor = "#149ddd";
 });
 document.querySelector(".emailMe").addEventListener("mouseout", () =>{
-    document.querySelectorAll("svg")[2].style.fill = "#149ddd";
+    document.querySelectorAll(".conIco")[2].style.fill = "#149ddd";
     document.querySelector(".emailMeIcon").style.backgroundColor = "rgb(244, 250, 253)";
 });

@@ -42,13 +42,19 @@
     h5 {
         font-size: 17px;
     }
+    hr {
+    width: 25px;
+    margin: 0px;
+    border: 2px solid #149ddd;
+    margin-left: 2px;
+}
 }
 @media(max-width:576px){
     h5 {
         font-size: 15px;
     }
      h3 {
-        font-size: 13px;
+        font-size: 17px;
     }
     p {
         font-size: 12px;
@@ -56,6 +62,7 @@
     h2 {
         font-size: 20px;
     }
+    
 }
 @media(max-width:990px) {
     .menu {

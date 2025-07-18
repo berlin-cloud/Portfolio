@@ -179,7 +179,10 @@ hr {
     border: 3px solid #149ddd;
     margin-left: 2px;
 }
-
+.AboutAns{
+    font-weight: 300;
+    padding:10px;
+}
 h2 {
     font-size: 40px;
     margin: 0px;
@@ -613,4 +616,7 @@ footer {
     padding: 40px;
     text-align: center;
     background-color: rgb(244, 250, 253);
+}
+.btn{
+    padding-bottom: 20px;
 }
