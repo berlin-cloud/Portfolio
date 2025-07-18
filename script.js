@@ -3,22 +3,22 @@ var flag = false;
 document.querySelector(".menu").addEventListener("click", (e) => {
     e.stopPropagation();
     document.querySelector(".navbar1").style.right = "0px";
-    document.body.style.overflow = "hidden";
+    document.querySelector("html").style.overflow = "hidden";
     flag = true;
 });
 document.querySelector(".close").addEventListener("click", () => {
     document.querySelector(".navbar1").style.right = "-800px";
-    document.body.style.overflow = "";
+     document.querySelector("html").style.overflow = "";
     flag = false;
 });
 var obs = new ResizeObserver(() => {
     if (getComputedStyle(document.querySelector(".link")).display === "block") {
         document.querySelector(".navbar1").style.right = "-800px";
-        document.body.style.overflow = "";
+         document.querySelector("html").style.overflow = "";
     }
     else if (flag === true) {
         document.querySelector(".navbar1").style.right = "0px";
-        document.body.style.overflow = "hidden";
+        document.querySelector("html").style.overflow = "hidden";
     }
 })
 obs.observe(document.querySelector(".link"));
@@ -26,7 +26,7 @@ obs.observe(document.querySelector(".link"));
 document.addEventListener("click", (e) => {
     if (!(document.querySelector(".navbar1").contains(e.target))) {
         document.querySelector(".navbar1").style.right = "-800px";
-        document.body.style.overflow = "";
+         document.querySelector("html").style.overflow = "";
         flag = false;
     }
 })
@@ -34,7 +34,7 @@ document.addEventListener("click", (e) => {
 for (let i = 0; i < document.querySelectorAll(".li1>a").length; i++) {
     document.querySelectorAll(".li1>a")[i].addEventListener("click", () => {
         document.querySelector(".navbar1").style.right = "-800px";
-        document.body.style.overflow = "";
+         document.querySelector("html").style.overflow = "";
         flag = false;
     });
 }

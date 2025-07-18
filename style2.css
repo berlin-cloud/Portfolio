@@ -1,3 +1,62 @@
+@media(max-width:768px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .navbar {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .name1,
+    .name2 {
+        font-size: medium;
+    }
+
+    .profileImg {
+        height: 25px;
+        width: 25px;
+    }
+
+    .menu {
+        height: 25px;
+        width: 25px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+}
+@media(max-width:576px){
+    h5 {
+        font-size: 15px;
+    }
+     h3 {
+        font-size: 13px;
+    }
+    p {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
 @media(max-width:990px) {
     .menu {
         display: block;
@@ -20,6 +79,7 @@
 @media(max-width:733px) {
     .navbar1 {
         width: 100%;
+        height: 100vh;
     }
 
     .name1 {
@@ -115,32 +175,6 @@
     }
 }
 
-@media(max-width:1296px) {
-    .htmlPercentageBox {
-        width: 500px;
-    }
-
-    .cssPercentageBox {
-        width: 500px;
-    }
-
-    .javascriptPercentageBox {
-        width: 500px;
-    }
-
-    .pythonPercentageBox {
-        width: 500px;
-    }
-
-    .cPercentageBox {
-        width: 500px;
-    }
-
-    .javaPercentageBox {
-        width: 500px;
-    }
-}
-
 @media(max-width:1070px) {
 
     .python,
@@ -169,10 +203,11 @@
             "box2 box2 box3 box3"
             "box4 box4 box5 box5"
             "box6 box6 box7 box7"
-            ;
+        ;
     }
 }
-@media(max-width:743px){
+
+@media(max-width:743px) {
     .resumeBox {
         grid-template-rows: repeat(7, auto);
         grid-template-columns: repeat(4, auto);
@@ -184,59 +219,80 @@
             "box5 box5 box5 box5"
             "box6 box6 box6 box6"
             "box7 box7 box7 box7"
-            ;
+        ;
     }
 }
-@media(max-width:1312px){
-    .certi{
-        width:300px;
-        height:300px;
+
+@media(max-width:1312px) {
+    .certi {
+        width: 300px;
+        height: 300px;
     }
 }
-@media(max-width:1008px){
-    .certi{
-        width:400px;
-        height:400px;
+
+@media(max-width:1008px) {
+    .certi {
+        width: 400px;
+        height: 400px;
     }
+
     .certificationBox {
-    grid-template-rows: repeat(4, auto);
-    grid-template-columns: repeat(4, auto);
-    grid-template-areas:
-        "certiBox1 certiBox1 certiBox1 certiBox1"
-        "certiBox2 certiBox2 certiBox3 certiBox3"
-        "certiBox4 certiBox4 certiBox5 certiBox5"
-        "certiBox6 certiBox6 certiBox7 certiBox7"
-    ;
-}
-}
-@media(max-width:870px){
-    .certificationBox {
-    grid-template-rows: repeat(4, auto);
-    grid-template-columns: repeat(4, auto);
-    grid-template-areas:
-        "certiBox1 certiBox1 certiBox1 certiBox1"
-        "certiBox2 certiBox2 certiBox2 certiBox2"
-        "certiBox3 certiBox3 certiBox3 certiBox3"
-        "certiBox4 certiBox4 certiBox4 certiBox4"
-        "certiBox5 certiBox5 certiBox5 certiBox5"
-        "certiBox6 certiBox6 certiBox6 certiBox6"
-        "certiBox7 certiBox7 certiBox7 certiBox7"
-    ;
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: repeat(4, auto);
+        grid-template-areas:
+            "certiBox1 certiBox1 certiBox1 certiBox1"
+            "certiBox2 certiBox2 certiBox3 certiBox3"
+            "certiBox4 certiBox4 certiBox5 certiBox5"
+            "certiBox6 certiBox6 certiBox7 certiBox7"
+        ;
     }
-    .CertificationImages{
+}
+
+@media(max-width:870px) {
+    .certificationBox {
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: repeat(4, auto);
+        grid-template-areas:
+            "certiBox1 certiBox1 certiBox1 certiBox1"
+            "certiBox2 certiBox2 certiBox2 certiBox2"
+            "certiBox3 certiBox3 certiBox3 certiBox3"
+            "certiBox4 certiBox4 certiBox4 certiBox4"
+            "certiBox5 certiBox5 certiBox5 certiBox5"
+            "certiBox6 certiBox6 certiBox6 certiBox6"
+            "certiBox7 certiBox7 certiBox7 certiBox7"
+        ;
+    }
+
+    .CertificationImages {
         display: flex;
         justify-content: center;
     }
 }
-@media(max-width:1000px){
-    .contentImage{
-        align-items: start;
-        justify-content: start;
+
+
+@media(max-width:444px) {
+    .certi {
+        width: 200px;
+        height: 200px;
     }
 }
-@media(max-width:444px){
-    .certi{
-        width:300px;
-        height:300px;
+
+@media(max-width:493px) {
+    iframe {
+        width: 300px;
+        height: 300px;
     }
+}
+
+@media(max-width:376px) {
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+
+    .certi {
+        width: 90%;
+        height: auto;
+    }
+
 }
